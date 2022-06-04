@@ -1,0 +1,19 @@
+.feedbackOptions:not(:last-child) {
+        margin-right: 5px;   
+      }
+
+.feedbackOptions {
+    cursor: pointer;
+}
+
+.statsItem {
+    display: flex;  
+}
+
+.statsItem:not(:last-child) {
+    margin-bottom: 5px;   
+  }
+
+.section {
+    padding-left: 30px;
+}
