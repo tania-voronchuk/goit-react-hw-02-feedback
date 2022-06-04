@@ -21,10 +21,8 @@ return this.setState({[option]: this.state[option] + 1})
     return total
   }
 
-  countPositiveFeedbackPercentage = (good, total) => {
-    if(total) {
-    return Math.round(good * 100 / total);   
-  }
+  countPositiveFeedbackPercentage = (total, good) => {
+       return Math.round(good * 100 / total);   
 }
     
 render() {
